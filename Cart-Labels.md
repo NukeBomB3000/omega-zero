@@ -1,0 +1,20 @@
+A cart with no label of its own carries its name. omega-zero can fetch the real thing: the scan of
+the label on a real cart, from [ScreenScraper](https://www.screenscraper.fr), a free database run
+by its community. You need a ScreenScraper account (free) and Wi-Fi joined.
+
+1. On the Wi-Fi screen, pick **Cart Labels**.
+2. On **ScreenScraper**, press A and type your user name, then your password, on the keyboard.
+3. On **Fetch Labels**, press A.
+
+omega-zero looks up each cart that has no label by its ROM's checksum, so a renamed file is still
+found. It takes the label from the region the ROM is from, (USA), (Europe) or (Japan), and from
+another region when that one was never scanned. Each label goes on the shelf as it arrives, into
+`Labels/GBA`, `Labels/GB` or `Labels/GBC` under the ROM's name. A label you put there yourself is
+never replaced, and a cart ScreenScraper has no scan for, such as a ROM hack, keeps its name.
+
+Your account is kept in `Config/screenscraper.conf`, as plain text: anyone with the card can read
+it. Y on **ScreenScraper** signs out and deletes it. A free account can look up thousands of carts
+a day, and the screen shows how many are left.
+
+You can also make labels yourself: a `.png` named after the ROM in `Labels/<platform>/`; see
+[[The Card]].
