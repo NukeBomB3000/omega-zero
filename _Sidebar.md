@@ -6,6 +6,7 @@
 - [[The Card]]
 
 **Using it**
+- [[Settings]]
 - [[Shelf Background]]
 - [[Overlays]]
 - [[Link Play]]

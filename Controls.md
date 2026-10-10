@@ -10,6 +10,8 @@
 
 ## On the shelf
 
+The bar along the bottom says what SELECT and START do.
+
 | Buttons | Does |
 |---|---|
 | Left / Right | Move along the shelf |
@@ -18,7 +20,8 @@
 | Tap A | Insert the cart and resume its last save state |
 | Hold A | Insert the cart and start the game fresh |
 | X | Open the cart and choose its core (GBA only) |
-| START | Settings, including [[Shelf Background]] and [[Wi-Fi, SSH and SFTP|Networking]] |
+| START | [[Settings]], including [[Shelf Background]] and [[Wi-Fi, SSH and SFTP|Networking]] |
+| Tap SELECT | QUICKMENU: what every button does, on the shelf and in a game. B or SELECT closes it |
 
 ## In a game
 
@@ -29,10 +32,25 @@
 | SELECT + MENU | Link screen, see [[Link Play]] |
 | SELECT + R1 | Save a state |
 | SELECT + L1 | Load the most recent save state |
+| SELECT + Y | Colour correction on or off |
 | Hold L2 | Rewind |
 | Hold R2 | Fast-forward. Double tap R2 to lock it on, again to unlock |
 | Hold X / Y | Turbo A / turbo B |
 | L1 / R1 | Stretch to fill the screen / original size (Game Boy and Game Boy Color) |
+
+## In Settings and the other menus
+
+The bar along the bottom says B RETURN and A CONFIRM. Keys a screen adds are shown in the middle
+of it.
+
+| Buttons | Does |
+|---|---|
+| Up / Down | Move between rows |
+| Left / Right | Change the lit row, on a row that shows ◀ ▶ |
+| A | Confirm: open the screen of a row that ends in ›, join the network under the cursor, set the clock |
+| B | Back one screen |
+| START | In Settings, back to the shelf. On Labels, fetch labels |
+| Y | On Network, forget the saved network under the cursor. On Labels, sign out |
 
 ## In the save state switcher
 

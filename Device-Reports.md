@@ -7,5 +7,5 @@ most useful thing you can send.
 3. Open a [device report](https://github.com/oauramos/omega-zero/issues/new?template=device-report.yml)
    with the file attached, and say what worked.
 
-Over SSH (BaseOS's default login is `root` / `root`), `sh /mnt/sdcard/System/probe.sh` does the
-same; see [[Wi-Fi, SSH and SFTP|Networking]].
+Over SSH (BaseOS's default login is `root` / `root`; Settings > Network > SSH shows yours),
+`sh /mnt/sdcard/System/probe.sh` does the same; see [[Wi-Fi, SSH and SFTP|Networking]].

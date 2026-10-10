@@ -34,7 +34,28 @@ Both need `sshpass` (`brew install sshpass`).
 
 Cart labels need ScreenScraper's key for the program, which is not in the source. Set
 `OMEGA_SS_DEVID` and `OMEGA_SS_DEVPASSWORD` when building to put it in; releases get it from the
-repository's secrets. A build without it says so on the Cart Labels screen.
+repository's secrets. A build without it says so on Settings > Labels.
+
+## The menus and the UI kit
+
+The menus are drawn from the pixel-art kit in `assets/ui/`; its
+[README](https://github.com/oauramos/omega-zero/blob/main/assets/ui/README.md) has the rules.
+Open `assets/ui/storybook.html` from disk to see every component. `assets/ui/flow.html` walks
+every menu screen with the slides the device draws, and is the reference the Rust screens are
+built to: the arrow keys, `X`, `Z`, `Enter` and `Space` stand in for the D-pad, A, B, START and
+SELECT, a toggle runs the slides five times slower, and the URL's hash picks the screen, colour,
+panel size and any moment of a slide:
+
+```
+flow.html#screen=network&from=settings&t=0.5&colour=amber&shot=1
+```
+
+The kit is in Rust too, in `crates/omega-ui/src/kit/`. Its tests in
+`crates/omega-ui/tests/suite/kit/` hold each face to a screenshot Chrome takes of the HTML kit,
+pixel for pixel; after changing a component, `make-refs.sh` there takes the screenshots again
+(`CHROME` points it at another Chrome). Each menu screen's input and drawing is a file of its
+own in `crates/omega-zero/src/screens/`, its faces are made in `frontend/sync_*.rs`, and
+`nav.rs` slides between them.
 
 ## Screens and tests
 

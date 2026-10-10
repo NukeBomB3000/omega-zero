@@ -8,12 +8,15 @@ out natively for every H700 panel.
 ## Start here
 
 - [[Installing]]: put BaseOS and omega-zero on a card, and update later.
-- [[Controls]]: every button, on the shelf and in a game.
+- [[Controls]]: every button, on the shelf, in a game and in the menus. A tap of SELECT on the
+  shelf lists them too.
 - [[The Card]]: where games, saves, labels and settings live.
 
 ## Using it
 
-- [[Shelf Background]]: a drifting pixel-art pattern or a plain colour behind the shelf.
+- [[Settings]]: START on the shelf. Fast-forward, rumble, the clock, the network and more.
+- [[Shelf Background]]: a drifting pixel-art pattern or a plain colour behind the shelf, whose
+  colour the menus take.
 - [[Overlays]]: your own picture over the game.
 - [[Link Play]]: two handhelds over Wi-Fi, for trades and battles.
 - [[Wi-Fi, SSH and SFTP|Networking]]: join your network, copy games over, keep the clock right.
