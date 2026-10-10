@@ -33,7 +33,7 @@ joined, and the time zone stays the one you set here.
 
 ## The bottom bar
 
-On the shelf, the bar says SELECT QUICKMENU on the left and START SETTINGS on the right. In every
+On the shelf, the bar says SELECT CONTROLS on the left and START SETTINGS on the right. In every
 menu it says B RETURN and A CONFIRM. A screen's own keys are shown in the middle of it: Y FORGET
 on Network, START FETCH and Y SIGN OUT on Labels.
 

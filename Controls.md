@@ -21,7 +21,7 @@ The bar along the bottom says what SELECT and START do.
 | Hold A | Insert the cart and start the game fresh |
 | X | Open the cart and choose its core (GBA only) |
 | START | [[Settings]], including [[Shelf Background]] and [[Wi-Fi, SSH and SFTP|Networking]] |
-| Tap SELECT | QUICKMENU: what every button does, on the shelf and in a game. B or SELECT closes it |
+| Tap SELECT | CONTROLS: what every button does, on the shelf and in a game. B or SELECT closes it |
 
 ## In a game
 
