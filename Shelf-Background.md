@@ -1,14 +1,15 @@
-Press START on the shelf and pick **Background**. The background behind the panel shows each
-choice as you make it.
+Press START on the shelf and pick **Theme**. The background behind the panel shows each choice
+as you make it, and so does the bottom bar under it.
 
 | Row | Choices |
 |---|---|
-| Style | **Grid** (lines crossing, like squared paper), **Plates** (raised square plates, lit from the top left like a 16-bit floor), **Dotted** (dotted lines with a cross where they meet), **Dither** (the grid's squares shaded from the top left in an ordered dither), **Rivets** (the plates, riveted at each corner), **Bits** (square pixels scattered like a 1-bit picture), **Solid** (the colour alone), and **Wallpaper** when the card has one |
+| Background | **Grid** (lines crossing, like squared paper), **Plates** (raised square plates, lit from the top left like a 16-bit floor), **Dotted** (dotted lines with a cross where they meet), **Dither** (the grid's squares shaded from the top left in an ordered dither), **Rivets** (the plates, riveted at each corner), **Bits** (square pixels scattered like a 1-bit picture), **Solid** (the colour alone), and **Wallpaper** when the card has one |
 | Motion | **Moving** (the pattern drifts slowly to the side and loops without a seam) or **Still**. Every style but Solid and Wallpaper |
 | Colour | Night, Slate, Navy, Teal, Green, Plum, Crimson or Amber |
+| Font | **Bold** or **Thin**: how the big words on the bottom bar are drawn, CONTROLS and SETTINGS on the shelf, RETURN and CONFIRM in the menus |
 
 Left and Right change the lit row; B goes back. The default is a moving Grid in Night, close to
-black.
+black, with the bar's words in Bold.
 
 The background is behind every screen, not only the shelf, and keeps moving while the screens
 slide over it. Colour also sets the colours of [[Settings]] and the other menus, the bars along

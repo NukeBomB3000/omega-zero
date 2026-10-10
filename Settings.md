@@ -21,7 +21,7 @@ A opens these. Each ends in ›.
 |---|---|
 | Date & Time | The clock. The row shows the date and time |
 | Network | Wi-Fi, network time and SSH; see [[Wi-Fi, SSH and SFTP|Networking]]. The row shows the network joined, or ON or OFF. Handhelds without Wi-Fi don't show it |
-| Background | The pattern and colour behind everything; see [[Shelf Background]] |
+| Theme | The pattern and colour behind everything, and the bottom bar's font; see [[Shelf Background]] |
 | About | The handheld's label, with the build's serial number |
 
 ## Date & Time
@@ -39,4 +39,5 @@ on Network, START FETCH and Y SIGN OUT on Labels.
 
 Every move between screens slides. Going into a screen, the one you leave goes out to the right
 and the new one comes in from the left; coming back is the mirror. The menus and both bars take
-their colours from **Background > Colour**.
+their colours from **Theme > Colour**, and **Theme > Font** draws the bar's big words bold or
+thin.

@@ -15,8 +15,8 @@ out natively for every H700 panel.
 ## Using it
 
 - [[Settings]]: START on the shelf. Fast-forward, rumble, the clock, the network and more.
-- [[Shelf Background]]: a drifting pixel-art pattern or a plain colour behind the shelf, whose
-  colour the menus take.
+- [[Shelf Background]]: Settings > Theme. A drifting pixel-art pattern or a plain colour behind
+  the shelf, whose colour the menus take, and the bottom bar's font.
 - [[Overlays]]: your own picture over the game.
 - [[Link Play]]: two handhelds over Wi-Fi, for trades and battles.
 - [[Wi-Fi, SSH and SFTP|Networking]]: join your network, copy games over, keep the clock right.

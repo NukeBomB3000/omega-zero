@@ -20,7 +20,7 @@ The bar along the bottom says what SELECT and START do.
 | Tap A | Insert the cart and resume its last save state |
 | Hold A | Insert the cart and start the game fresh |
 | X | Open the cart and choose its core (GBA only) |
-| START | [[Settings]], including [[Shelf Background]] and [[Wi-Fi, SSH and SFTP|Networking]] |
+| START | [[Settings]], including the [[Theme|Shelf Background]] and [[Wi-Fi, SSH and SFTP|Networking]] |
 | Tap SELECT | CONTROLS: what every button does, on the shelf and in a game. B or SELECT closes it |
 
 ## In a game
