@@ -13,7 +13,7 @@ out natively for every H700 panel.
 
 ## Using it
 
-- [[Shelf Background]]: a drifting grid, bits or a plain colour behind the shelf.
+- [[Shelf Background]]: a drifting pixel-art pattern or a plain colour behind the shelf.
 - [[Overlays]]: your own picture over the game.
 - [[Link Play]]: two handhelds over Wi-Fi, for trades and battles.
 - [[Wi-Fi, SSH and SFTP|Networking]]: join your network, copy games over, keep the clock right.

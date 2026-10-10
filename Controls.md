@@ -17,8 +17,8 @@
 | L1 / R1 | Switch between GBA, Game Boy and Game Boy Color |
 | Tap A | Insert the cart and resume its last save state |
 | Hold A | Insert the cart and start the game fresh |
-| START | Open the cart and choose its core (GBA only) |
-| MENU | Settings, including [[Shelf Background]] and [[Wi-Fi, SSH and SFTP|Networking]] |
+| X | Open the cart and choose its core (GBA only) |
+| START | Settings, including [[Shelf Background]] and [[Wi-Fi, SSH and SFTP|Networking]] |
 
 ## In a game
 

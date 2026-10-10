@@ -1,6 +1,6 @@
 ## Joining a network
 
-1. On the shelf, press MENU, go down to **Wi-Fi** and press A.
+1. On the shelf, press START, go down to **Wi-Fi** and press A.
 2. Press A again to switch Wi-Fi on. The networks in reach appear under it after a few seconds.
 3. Pick yours and press A. If it needs a passphrase, type it on the keyboard (see [[Controls]])
    and press START.
