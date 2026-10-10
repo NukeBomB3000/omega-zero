@@ -28,18 +28,19 @@ supported.
 
 ## Copying games over SSH and SFTP
 
-BaseOS runs an SSH server with SFTP on every boot. On **Network**, pick **SSH** to see how to log
-in once a network is joined:
+BaseOS runs an SSH server with SFTP. On **Network**, the **SSH** row steps through **ON**, **OFF**
+and **INFO** with Left and Right: ON starts the server, OFF stops it (logins already made stay),
+and omega-zero keeps your choice across restarts. With INFO showing, A opens how to log in:
 
 | Line | Says |
 |---|---|
 | IP | The handheld's address |
 | HOST | Its name, such as `rg35xxsp.local` |
 | USER | `root` |
-| PASSWORD | `root`, unless you set `ssh_password=` in `baseos.conf` at the root of the card in SD1 (see [BaseOS's settings](https://github.com/pvaibhav/BaseOS#settings)) |
+| PASSWORD | Six random digits, which omega-zero gives root the first time it runs on a card. It keeps them as `ssh_password=` in `baseos.conf` at the root of the card in SD1, so BaseOS keeps them too. A password you set there yourself is kept (see [BaseOS's settings](https://github.com/pvaibhav/BaseOS#settings)) |
 | PORT | 22 |
 
-SFTP uses the same login. With no network joined, SSH says to join one first.
+SFTP uses the same login. With no network joined, INFO says to join one first, and with SSH off, to turn it on.
 
 - The card omega-zero runs from is `/mnt/sdcard`, so games go in `/mnt/sdcard/Games/GBA` and so on.
 - Use any SFTP client, such as [Cyberduck](https://cyberduck.io),

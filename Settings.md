@@ -34,10 +34,11 @@ joined, and the time zone stays the one you set here.
 ## The bottom bar
 
 On the shelf, the bar says SELECT CONTROLS on the left and START SETTINGS on the right. In every
-menu it says B RETURN and A CONFIRM. A screen's own keys are shown in the middle of it: Y FORGET
+menu it says B RETURN and A CONFIRM. A screen's own keys are shown between its two ends, over the background: Y FORGET
 on Network, START FETCH and Y SIGN OUT on Labels.
 
 Every move between screens slides. Going into a screen, the one you leave goes out to the right
-and the new one comes in from the left; coming back is the mirror. The menus and both bars take
+and the new one comes in from the left; coming back is the mirror. CONTROLS, on SELECT, slides
+the other way round: in from the right, and back out to the right. The menus and both bars take
 their colours from **Theme > Colour**, and **Theme > Font** draws the bar's big words bold or
 thin.
