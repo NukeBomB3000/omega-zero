@@ -21,8 +21,26 @@ A opens these. Each ends in ›.
 |---|---|
 | Date & Time | The clock. The row shows the date and time |
 | Network | Wi-Fi, network time and SSH; see [[Wi-Fi, SSH and SFTP|Networking]]. The row shows the network joined, or ON or OFF. Handhelds without Wi-Fi don't show it |
+| Bluetooth | The Bluetooth radio and the devices paired with it; see [Bluetooth](#bluetooth) below. The row shows the device connected, or ON or OFF. Handhelds without Bluetooth don't show it |
 | Theme | The pattern and colour behind everything, and the bottom bar's font; see [[Shelf Background]] |
 | About | The handheld's label, with the build's serial number |
+
+## Bluetooth
+
+The **BLUETOOTH** panel switches the radio with Left and Right; omega-zero keeps the choice and
+brings it back up at the next start. While it is on and this screen is open, **DEVICES** lists
+the devices paired with the handheld first, then the ones it finds in reach, each with an icon
+for what it is (headphones, a controller, a keyboard, or anything else) and CONNECTED,
+CONNECTING, PAIRING or PAIRED.
+
+- A on a device found pairs with it and connects; on one paired, connects; on one connected,
+  disconnects.
+- Y forgets a paired device; the bar shows Y FORGET.
+- The top bar's Bluetooth icon is lit while the radio is on.
+
+Pairing needs no code: it works with headphones and controllers that pair with a button press.
+Sound from games over Bluetooth headphones, and playing with a Bluetooth controller, are still
+to come.
 
 ## Date & Time
 
@@ -37,8 +55,10 @@ On the shelf, the bar says SELECT CONTROLS on the left and START SETTINGS on the
 menu it says B RETURN and A CONFIRM. A screen's own keys are shown between its two ends, over the background: Y FORGET
 on Network, START FETCH and Y SIGN OUT on Labels.
 
-Every move between screens slides. Going into a screen, the one you leave goes out to the right
-and the new one comes in from the left; coming back is the mirror. CONTROLS, on SELECT, slides
-the other way round: in from the right, and back out to the right. The menus and both bars take
+Every move between screens slides. Leaving the shelf, the top bar goes up and the slot down while
+the carts go out sideways: Settings, on START, comes in from the right and goes back out to the
+right, and CONTROLS, on SELECT, comes in from the left. Inside Settings, going into a screen, the
+one you leave goes out to the right and the new one comes in from the left; coming back is the
+mirror. The menus and both bars take
 their colours from **Theme > Colour**, and **Theme > Font** draws the bar's big words bold or
 thin.
