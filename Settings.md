@@ -29,7 +29,8 @@ A opens these. Each ends in ›.
 
 The **BLUETOOTH** panel switches the radio with Left and Right; omega-zero keeps the choice and
 brings it back up at the next start. While it is on and this screen is open, **DEVICES** lists
-the devices paired with the handheld first, then the ones it finds in reach, each with an icon
+the devices paired with the handheld first; press X to look for the others in reach (the bar says
+X SCAN), which then follow the paired ones. Each device has an icon
 for what it is (headphones, a controller, a keyboard, or anything else) and CONNECTED,
 CONNECTING, PAIRING or PAIRED.
 
@@ -52,8 +53,9 @@ joined, and the time zone stays the one you set here.
 ## The bottom bar
 
 On the shelf, the bar says SELECT CONTROLS on the left and START SETTINGS on the right. In every
-menu it says B RETURN and A CONFIRM. A screen's own keys are shown between its two ends, over the background: Y INFO
-and Y FORGET on Network, START FETCH and Y SIGN OUT on Labels.
+menu it says B RETURN and A CONFIRM. A screen's own keys are shown between its two ends, over the background: X SCAN,
+Y INFO and Y FORGET on Network, X SCAN and Y FORGET on Bluetooth, START FETCH and Y SIGN OUT on
+Labels.
 
 Every move between screens slides. Leaving the shelf, the top bar goes up and the slot down while
 the carts go out sideways: Settings, on START, comes in from the right and goes back out to the

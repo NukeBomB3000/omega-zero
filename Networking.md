@@ -1,8 +1,9 @@
 ## Joining a network
 
 1. On the shelf, press START, go down to **Network** and press A.
-2. On **Wi-Fi**, press A (or Left or Right) to switch it on. The networks in reach appear under
-   **AVAILABLE NETWORKS** after a few seconds.
+2. On **Wi-Fi**, press A (or Left or Right) to switch it on. **AVAILABLE NETWORKS** lists the
+   network joined and the saved ones; press X to look for the others in reach (the bar says
+   X SCAN). omega-zero looks only when you press X, once each time, which saves battery.
 3. Pick yours and press A. If it needs a passphrase, type it on the keyboard (see [[Controls]])
    and press START.
 
