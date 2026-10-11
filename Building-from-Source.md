@@ -23,10 +23,15 @@ it has not saved. It builds with the `device-dev` profile, which skips the relea
 whole-program optimisation, so a rebuild after an edit takes seconds; `PROFILE=device` copies the
 shipping build instead. `SCRIPTS=1` copies the scripts in `card/System` too.
 
-It finds the console as `rg35xxsp.local` with BaseOS's `root` password and the card at
-`/mnt/sdcard`. `CONSOLE` (a name or address, `HOST:PORT` for another port), `CONSOLE_PASSWORD`
-and `SD` change those. `task log:wifi` prints `omega-zero.log` off the console the same way.
-Both need `sshpass` (`brew install sshpass`).
+It finds the console as `rg35xxsp.local` and the card at `/mnt/sdcard`. `CONSOLE` (a name or
+address, `HOST:PORT` for another port) and `SD` change those. For root's password it takes
+`CONSOLE_PASSWORD`, else the first line of `.console-password` at the root of the repository
+(git ignores it), else `root`, BaseOS's own. omega-zero gives root six random digits the first
+time it runs on a card, so from then on the password is the one Settings > Network shows with Y
+on the SSH row (see [[Wi-Fi, SSH and SFTP|Networking]]): put it in `.console-password` once. A
+console that turns the password away says so, also when a deploy reboots it into the first
+omega-zero to run on a card. `task log:wifi` prints `omega-zero.log` off the console the same
+way. Both need `sshpass` (`brew install sshpass`).
 
 `task build:device PROFILE=device-dev` builds the same thing without copying it.
 
