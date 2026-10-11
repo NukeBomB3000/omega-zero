@@ -65,8 +65,6 @@ of it.
 |---|---|
 | Left / Right | Flick through the states |
 | A | Load the one on screen |
-| Y | Delete the one on screen |
-| X | Undo the last save or load, up to 30 seconds after |
 | B | Back to the game |
 
 ## On the on-screen keyboard

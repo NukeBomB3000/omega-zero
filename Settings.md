@@ -23,7 +23,7 @@ A opens these. Each ends in ›.
 | Network | Wi-Fi, network time and SSH; see [[Wi-Fi, SSH and SFTP|Networking]]. The row shows the network joined, or ON or OFF. Handhelds without Wi-Fi don't show it |
 | Bluetooth | The Bluetooth radio and the devices paired with it; see [Bluetooth](#bluetooth) below. The row shows the device connected, or ON or OFF. Handhelds without Bluetooth don't show it |
 | Theme | The pattern and colour behind everything, and the bottom bar's font; see [[Shelf Background]] |
-| About | The handheld's label, with the build's serial number |
+| About | omega-zero's version and build, its author, the handheld and its battery, and the credits |
 
 ## Bluetooth
 
