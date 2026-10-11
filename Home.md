@@ -1,9 +1,9 @@
 # omega-zero
 
 omega-zero is a Game Boy-centric frontend for Anbernic H700 handhelds running
-[BaseOS](https://github.com/pvaibhav/BaseOS). It plays GBA, GBC and GB games, and only those, on a
-shelf of cartridges you slide into a slot. It is made for the **RG35XX SP** first, and lays itself
-out natively for every H700 panel.
+[BaseOS](https://github.com/pvaibhav/BaseOS). It plays GBA, GBC and GB games, and only those, from a
+shelf of cartridges that go down into the handheld when you play them. It is made for the
+**RG35XX SP** first, and lays itself out natively for every H700 panel.
 
 ## Start here
 

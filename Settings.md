@@ -52,13 +52,14 @@ joined, and the time zone stays the one you set here.
 
 ## The bottom bar
 
-On the shelf, the bar says SELECT CONTROLS on the left and START SETTINGS on the right. In every
+On the shelf, the bar says SELECT CONTROLS on the left and START SETTINGS on the right, with the
+shelf's system (GBA, GB or GBC) in a pill between them; see [[Controls]]. In every
 menu it says B RETURN and A CONFIRM. A screen's own keys are shown between its two ends, over the background: X SCAN,
 Y INFO and Y FORGET on Network, X SCAN and Y FORGET on Bluetooth, START FETCH and Y SIGN OUT on
 Labels.
 
-Every move between screens slides. Leaving the shelf, the top bar goes up and the slot down while
-the carts go out sideways: Settings, on START, comes in from the right and goes back out to the
+Every move between screens slides. Leaving the shelf, the top bar goes up while the carts go out
+sideways: Settings, on START, comes in from the right and goes back out to the
 right, and CONTROLS, on SELECT, comes in from the left. Inside Settings, going into a screen, the
 one you leave goes out to the right and the new one comes in from the left; coming back is the
 mirror. The menus and both bars take
