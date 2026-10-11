@@ -2,8 +2,10 @@
   `omega-zero.log.1` the one before. The first lines name the device, panel and canvas omega-zero
   picked.
 - **Crashes** leave `crash/cores.log` and a core dump on the card.
-- **The boot logo** is only ever replaced with one the size of your device's own. The original is
-  kept on the boot partition as `bootlogo.baseos.bmp`.
+- **The boot screen** is put on the boot partition as omega-zero starts, from
+  `System/bootlogo-<width>x<height>.bmp`, so it shows from the boot after that. It is only ever
+  replaced with one the size of your device's own, and the original is kept on the boot
+  partition as `bootlogo.baseos.bmp`.
 - **Button presses** can be traced to `input-trace.log` by running omega-zero with
   `OMEGA_TRACE_INPUT=1`.
 - **"The Wi-Fi radio did not start"**, under the networks on Settings > Network, means BaseOS

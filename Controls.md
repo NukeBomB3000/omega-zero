@@ -8,6 +8,13 @@
 | VOL+ and VOL- together | Mute |
 | Hold POWER | Power menu |
 
+## At power-on
+
+Any button skips the opening: the terminal fades out at once and the shelf comes in. The press
+that skips it does nothing else, so A inserts no cart. Once the shelf shows through, a press ends
+the opening and does what it does on the shelf. POWER and the lid end it at once. Brightness,
+blue light and volume work through it.
+
 ## On the shelf
 
 The bar along the bottom says what SELECT and START do.

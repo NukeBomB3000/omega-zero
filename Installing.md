@@ -15,6 +15,17 @@ exact model.
    [[The Card]] and [[Cart Labels]].
 5. Put the card back in SD1 and boot.
 
+## What you see as it starts
+
+While Linux starts, the handheld shows a still boot screen: an old PC's BIOS screen, after
+Award's, told about omega-zero. Its first boot only puts that screen on the boot partition, so
+the first one shows BaseOS's own logo and every boot after it shows omega-zero's.
+
+Then omega-zero plays its opening. The boot screen fades to black, and a terminal after Mega Man
+X5's boot screen types its way through ten seconds about the handheld: its model, its memory, the
+H700, the battery and its charge. Then the shelf fades in. Any button skips it; see [[Controls]].
+A boot that goes straight back into a game, or to the clock, plays no opening.
+
 ## On two cards
 
 1. Write BaseOS to the card in **SD1** as above.

@@ -30,6 +30,19 @@ Both need `sshpass` (`brew install sshpass`).
 
 `task build:device PROFILE=device-dev` builds the same thing without copying it.
 
+## The boot screen and the opening
+
+The boot screen, the still image the bootloader shows while Linux starts, is
+`card/System/bootlogo-<width>x<height>.bmp`, one per panel. `task bootlogos` renders all of them
+with `crates/omega-zero/examples/bootscreens.rs`: a BIOS screen after Award's, in the opening's
+letters and where its terminal prints, with the OmegaZero logo in 16 colours from
+`assets/logo/omega-zero-logo-bios.png`. `assets/logo/bioslogo.sh` makes that logo again
+(ImageMagick). `task bootlogos:logo` renders the logo over the shelf's grid that was the boot
+screen before (Chrome and ImageMagick).
+
+The opening is `crates/omega-zero/src/opening.rs`: what it tells, its script, fades and skip. Its
+letters are `crates/omega-ui/src/opening.rs` and its sounds `crates/omega-zero/src/audio/chime.rs`.
+
 ## Cart labels
 
 Cart labels need ScreenScraper's key for the program, which is not in the source. Set
