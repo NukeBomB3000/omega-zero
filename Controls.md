@@ -17,18 +17,28 @@ blue light and volume work through it.
 
 ## On the shelf
 
-The bar along the bottom says what SELECT and START do.
+The bar along the bottom says what SELECT and START do. Between them, a pill shows the shelf's
+system: GBA, GB or GBC. It is always there, even with only one shelf, and hidden while the core
+picker (X) is open.
 
 | Buttons | Does |
 |---|---|
 | Left / Right | Move along the shelf |
-| Up / Down | Jump to the next letter |
-| L1 / R1 | Switch between GBA, Game Boy and Game Boy Color |
+| Up / Down | Jump to the next letter. The letter shows in the pill for about two seconds, then the pill goes back to the system |
+| L1 / R1 | Switch between GBA, Game Boy and Game Boy Color. The pill rises in with the new one |
 | Tap A | Insert the cart and resume its last save state |
 | Hold A | Insert the cart and start the game fresh |
 | X | Open the cart and choose its core (GBA only) |
 | START | [[Settings]], including the [[Theme|Shelf Background]] and [[Wi-Fi, SSH and SFTP|Networking]] |
 | Tap SELECT | CONTROLS: what every button does, on the shelf and in a game. B or SELECT closes it |
+
+The carts sit centred between the top bar and the bottom bar. Starting a game, the cart in the
+middle rises a little, then is pulled down out of the bottom of the screen into the handheld; it
+is gone at 0.6 seconds, and keeps its size all the way, a Game Boy pak too. Then the game's screen turns on like an old tube TV: a dot, a line across,
+then the picture opening white and fading to its colours, over 0.6 seconds. Leaving a game plays
+it backwards: the TV goes off over 0.5 seconds and the cart comes back up from the bottom of the
+screen. A cart that can't start, such as a GBA game with no GBA core, comes back out the same way
+with its warning sign.
 
 ## In a game
 

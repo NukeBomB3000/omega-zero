@@ -13,7 +13,7 @@ black, with the bar's words in Bold.
 
 The background is behind every screen, not only the shelf, and keeps moving while the screens
 slide over it. Colour also sets the colours of [[Settings]] and the other menus, the bars along
-the top and bottom and the slot: Night gives plain greys, Amber gives Mega Man Zero's own
+the top and bottom: Night gives plain greys, Amber gives Mega Man Zero's own
 colours, and the others turn those to their hue. It does so with a wallpaper too.
 
 Every pattern is pixel art on the same grid as the words over it: each of its pixels is 2x2 of the
@@ -21,3 +21,10 @@ screen's, so nothing behind the shelf is smoothed.
 
 A `.png` in `Wallpapers/` on the card is shown as long as you have not picked another style, and
 stays one of the choices while the file is there.
+
+## Config/theme.txt
+
+A `theme.txt` in `Config/` on the card draws the top bar in colours of its own, one per line as a
+name and a hex colour: `housing #242429` for the bar and `edge #4d4d57` for its edge. Without the
+file, Colour sets the bars as above. The `recess` and `opening` lines coloured the cart slot under
+the shelf, which is gone; they are no longer read, and a file that still has them works as before.
