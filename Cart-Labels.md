@@ -19,3 +19,10 @@ are left.
 
 You can also make labels yourself: a `.png` named after the ROM in `Labels/<platform>/`; see
 [[The Card]].
+
+Each label is cut once to the size the shelf shows it at, and the cut is kept in a `.cut` folder
+beside it (`Labels/GBA/.cut`, and so on), so the shelf comes up at once however many labels the
+card holds. A fetched label is cut as it arrives. A label you put on the card yourself is cut in
+the background the first time omega-zero starts with it, and its cart carries its name until
+then. A label you replace is cut again. Deleting a `.cut` folder loses nothing: its cuts are
+made again.
