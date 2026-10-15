@@ -37,3 +37,10 @@ card holds. A fetched label is cut as it arrives. A label you put on the card yo
 the background the first time omega-zero starts with it, and its cart carries its name until
 then. A label you replace is cut again. Deleting a `.cut` folder loses nothing: its cuts are
 made again.
+
+Once it is cut, the label itself is shrunk to the smallest size that still covers every cart of
+its system, since the shelf never draws one bigger: labels take about a quarter of the room they
+did, and Fetch Labels asks for them about that size to begin with. Labels you put on the card
+yourself are shrunk too, so keep a copy elsewhere if you want the full-size picture. At boot every
+cart comes up carrying its name, and its label is drawn on while the opening plays, the carts on
+screen first.
