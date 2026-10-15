@@ -18,17 +18,17 @@ blue light and volume work through it.
 ## On the shelf
 
 The bar along the bottom says what SELECT and START do. Between them, a pill shows the shelf's
-system: GBA, GB or GBC. It is always there, even with only one shelf, and hidden while the core
-picker (X) is open.
+system: GBA, GB, GBC, SNES or PS1. It is always there, even with only one shelf, and hidden while
+the core picker (X) is open.
 
 | Buttons | Does |
 |---|---|
 | Left / Right | Move along the shelf |
 | Up / Down | Jump to the next letter. The letter shows in the pill for about two seconds, then the pill goes back to the system |
-| L1 / R1 | Switch between GBA, Game Boy and Game Boy Color. The pill rises in with the new one |
+| L1 / R1 | Switch between the shelves: GBA, Game Boy, Game Boy Color, SNES and PlayStation, each that has games. The pill rises in with the new one |
 | Tap A | Insert the cart and resume its last save state |
 | Hold A | Insert the cart and start the game fresh |
-| X | Open the cart and choose its core (GBA only) |
+| X | Open the cart and choose its core (GBA and SNES); see [[Systems]] |
 | START | [[Settings]], including the [[Theme|Shelf Background]] and [[Wi-Fi, SSH and SFTP|Networking]] |
 | Tap SELECT | CONTROLS: what every button does, on the shelf and in a game. B or SELECT closes it |
 
@@ -46,14 +46,29 @@ with its warning sign.
 |---|---|
 | Hold MENU | Save a state, eject the cart, back to the shelf |
 | Double tap MENU | Save state switcher |
-| SELECT + MENU | Link screen, see [[Link Play]] |
+| SELECT + MENU | Link screen on the GBA and the Game Boys, see [[Link Play]]. [DISC](#on-the-disc-screen) on the PlayStation |
 | SELECT + R1 | Save a state |
 | SELECT + L1 | Load the most recent save state |
-| SELECT + Y | Colour correction on or off |
-| Hold L2 | Rewind |
-| Hold R2 | Fast-forward. Double tap R2 to lock it on, again to unlock |
-| Hold X / Y | Turbo A / turbo B |
+| SELECT + Y | Colour correction on or off (GBA and Game Boy) |
+| Hold L2 | Rewind (not on the PlayStation) |
+| Hold R2 | Fast-forward. Double tap R2 to lock it on, again to unlock. On the PlayStation, SELECT + R2 |
+| Hold X / Y | Turbo A / turbo B (GBA and Game Boy) |
 | L1 / R1 | Stretch to fill the screen / original size (Game Boy and Game Boy Color) |
+
+In a SNES game, A, B, X, Y, L1 and R1 are the game's; L2 and R2 still rewind and fast-forward.
+In a PlayStation game, L2 and R2 are the game's too, so fast-forward moves to SELECT + R2 (double
+tap it to lock it on) and there is no rewind. ✕, ○, □ and △ are B, A, Y and X. See [[Systems]].
+
+## On the DISC screen
+
+SELECT + MENU in a PlayStation game on several discs opens DISC, with the game paused under it.
+A game on one disc says Only one disc instead.
+
+| Buttons | Does |
+|---|---|
+| Left / Right | Pick a disc |
+| A | Put it in the drive, and back to the game |
+| B, SELECT or SELECT + MENU | Back to the game, with the disc that was in |
 
 ## In Settings and the other menus
 

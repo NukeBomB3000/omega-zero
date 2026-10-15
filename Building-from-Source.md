@@ -15,13 +15,32 @@ and the crates it downloads in the docker volumes `omega-zero-rustup` and `omega
 gpSP's compiler needs more memory than a 2 GB Docker VM has, and more cores build faster; with
 colima, `colima start --cpu 6 --memory 6`.
 
+## The cores
+
+omega-zero hosts five libretro cores: mGBA and gpSP for the GBA and the Game Boys, Snes9x and
+Supafaust for the SNES, and PCSX ReARMed for the PlayStation. They live in `vendor/`, which git
+ignores.
+
+- `task core` gets all five for the desktop: it builds mGBA and Supafaust (the libretro buildbot
+  has no Supafaust for macOS) and fetches gpSP, Snes9x and pcsx_rearmed from the buildbot. One at
+  a time: `task core:mgba:host`, `core:gpsp:host`, `core:snes9x:host`, `core:supafaust:host`,
+  `core:pcsx:host`. A core that is missing runs the mock instead, a test pattern and a tone.
+- `task cores:device` builds the five for the device in the container, from commits pinned in
+  the taskfile. gpSP, Snes9x, Supafaust and pcsx_rearmed are built from a source archive kept
+  beside them in `vendor/`, which ships in `System/licenses/`. One at a time: `task core:device`
+  (mGBA), `core:gpsp`, `core:snes9x`, `core:supafaust`, `core:pcsx`; those four also have an
+  `:update` task that fetches the source again. pcsx_rearmed is built with its ARM64 dynarec and
+  NEON GPU.
+- `task deploy:wifi CORES=1` builds the five device cores too and copies them into `System/`.
+
 ## Trying a change on the console
 
 `task deploy:wifi` builds omega-zero, copies it to the console over SSH, checks it arrived whole,
 reboots the console and waits until the new build starts. Any game still running loses whatever
 it has not saved. It builds with the `device-dev` profile, which skips the release build's
 whole-program optimisation, so a rebuild after an edit takes seconds; `PROFILE=device` copies the
-shipping build instead. `SCRIPTS=1` copies the scripts in `card/System` too.
+shipping build instead. `SCRIPTS=1` copies the scripts in `card/System` too, and `CORES=1` the
+five cores (see [The cores](#the-cores)).
 
 It finds the console as `rg35xxsp.local` and the card at `/mnt/sdcard`. `CONSOLE` (a name or
 address, `HOST:PORT` for another port) and `SD` change those. For root's password it takes

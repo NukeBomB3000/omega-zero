@@ -11,3 +11,6 @@ Mario Kart: Super Circuit, and Game Boy link plays Tetris.
 
 A link uses the same radio as home Wi-Fi, so it takes over from it while it lasts and hands it
 back when it ends.
+
+Link play is for the GBA and the Game Boys. In a SNES game, SELECT + MENU says No link support;
+in a PlayStation game it opens DISC instead; see [[Controls]].

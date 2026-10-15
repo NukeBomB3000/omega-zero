@@ -7,9 +7,9 @@ Left and Right change these. The lit row shows ◀ ▶ either side of its value.
 
 | Row | Does |
 |---|---|
-| Fast Forward | How fast R2 runs a game: 2X, 3X, 4X or 6X |
+| Fast Forward | How fast R2 runs a game, SELECT + R2 a PlayStation game: 2X, 3X, 4X or 6X |
 | Fast Forward Sound | Whether you hear the game while it runs fast |
-| Colour Correction | The cores' colour correction, closer to the colours of the original handheld's screen. SELECT + Y in a game does the same |
+| Colour Correction | The cores' colour correction, closer to the colours of the original handheld's screen, for GBA and Game Boy games. SELECT + Y in a game does the same |
 | Rumble | The motor, for games that rumble |
 | Labels › | Real label scans from ScreenScraper; see [[Cart Labels]] |
 
@@ -53,7 +53,7 @@ joined, and the time zone stays the one you set here.
 ## The bottom bar
 
 On the shelf, the bar says SELECT CONTROLS on the left and START SETTINGS on the right, with the
-shelf's system (GBA, GB or GBC) in a pill between them; see [[Controls]]. In every
+shelf's system (GBA, GB, GBC, SNES or PS1) in a pill between them; see [[Controls]]. In every
 menu it says B RETURN and A CONFIRM. A screen's own keys are shown between its two ends, over the background: X SCAN,
 Y INFO and Y FORGET on Network, X SCAN and Y FORGET on Bluetooth, START FETCH and Y SIGN OUT on
 Labels.

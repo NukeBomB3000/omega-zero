@@ -2,6 +2,7 @@
 
 **Start here**
 - [[Installing]]
+- [[Systems]]
 - [[Controls]]
 - [[The Card]]
 

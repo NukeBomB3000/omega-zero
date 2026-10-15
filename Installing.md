@@ -11,8 +11,9 @@ exact model.
    says no frontend was found. Power off.
 3. Download the latest [omega-zero release](https://github.com/oauramos/omega-zero/releases/latest),
    unzip it, and copy the contents of the `omega-zero-vX.Y.Z/` folder to the root of the card.
-4. Put your games in `Games/GBA`, `Games/GB` and `Games/GBC`. Labels are optional; see
-   [[The Card]] and [[Cart Labels]].
+4. Put your games in `Games/GBA`, `Games/GB`, `Games/GBC`, `Games/SNES` and `Games/PS1`; see
+   [[Systems]] for the files each takes. Labels are optional; see [[The Card]] and
+   [[Cart Labels]].
 5. Put the card back in SD1 and boot.
 
 ## What you see as it starts
